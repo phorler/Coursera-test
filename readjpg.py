@@ -1,0 +1,5 @@
+f = open('Stared.jpg', 'rb')
+jpgdata = f.read()
+f.close()
+print("test")
+print(jpgdata)
